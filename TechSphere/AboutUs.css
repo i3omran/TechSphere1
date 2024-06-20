@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #060480, #01011A);
+}
+
+/* nav section code*/
+li, a, button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 7%;
+    background: linear-gradient(to right, #060480, #01011A);
+}
+
+header p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar_links{
+    list-style: none;
+}
+.navbar_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar_links li a{
+    transition: all 0.3s ease 0s;
+
+}
+.navbar_links li a:hover{
+    color: #060480;
+    background-color: #FAC809;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+button{
+    color: #060480;
+    padding: 9px 25px;
+    background-color: #FAC809;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: aqua;
+}
+/*end of nav section*/
+/*hero section*/
+.hero-section{
+    background: linear-gradient(to right, #060480, #01011A);
+    height: 23rem;
+    width: 100%;
+    text-align: center;
+}
+.hero-section h1{
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    position: absolute;
+    left: 22%;
+    top: 40%;
+}
+#Line{
+    width: 100%;
+    background-color: #FAC809;
+    display: block;
+}
+/*Main section*/
+.AboutUs{
+    display: flex;
+    flex-direction: column;
+    background-position: left top, right bottom;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align:left;
+}
+.AboutUs img{
+    width: 300px;
+}
+.AboutUs p{
+    color: #edf0f1;
+    font-size: 25px;
+    margin: 0px 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+}
+.AboutUs h3{
+    color: #FAC809;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 45px;
+}
+.Ceo{
+    display: flex;
+}
+.Ceo img{
+    width:200px;
+    border-radius: 50%;
+    margin: 40px;
+}
+.ceo1{
+    text-align: center;
+}
+.ceo1 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #edf0f1;
+}
+/*footer section*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 17px;
+    background:linear-gradient(to right, #060480, #01011A);
+    height: 15rem;
+    margin-top: 40px;
+}
+footer iframe{
+    border-radius: 10px;
+}
+.map-caption{
+    margin-bottom: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FAC809;
+}
+.nav-bar h3{
+    color: #FAC809;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar_links-f{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.navbar_links-f li{
+    margin-top: 13px;
+}
+.navbar_links-f li a{
+    transition: all 0.3s ease 0s;
+
+}
+.navbar_links-f li a:hover{
+    color: #060480;
+    background-color: #FAC809;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+.Contact{
+    justify-self: normal;
+}
+.Contact h3{
+    color: #FAC809;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 40px;
+}
+.Contact p{
+    color: #FAC809;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Contact form{
+    margin-top: 35px;
+    color: #FAC809;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Contact form input{
+    border: 0 0 1px 0;
+    border-color: #FAC809;
+    border-radius: 3px;
+    height: 20px;
+    width: 60%;
+    background-color: transparent;
+    margin-top: 6px;
+}

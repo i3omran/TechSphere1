@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav section code*/
+html{
+    scroll-behavior: smooth;
+}
+li, a, button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 7%;
+    background: linear-gradient(to right, #060480, #01011A);
+}
+
+header p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar_links{
+    list-style: none;
+}
+.navbar_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar_links li a{
+    transition: all 0.3s ease 0s;
+
+}
+.navbar_links li a:hover{
+    color: #060480;
+    background-color: #FAC809;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+button{
+    color: #060480;
+    padding: 9px 25px;
+    background-color: #FAC809;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: aqua;
+}
+/*end of nav section*/
+/*hero section*/
+.hero-section{
+    background: linear-gradient(to right, #060480, #01011A);
+    height: 23rem;
+    width: 100%;
+    text-align: center;
+}
+.hero-section h1{
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    padding-top: 100px;
+}
+#Line{
+    width: 100%;
+    background-color: #FAC809;
+    display: block;
+}
+/*end of hero section*/
+/*services section*/
+#services-caption{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin:  30px 300px;
+    background-color: #FAC809;
+    padding: 15px;
+    border-radius: 17px;
+}
+.services-header h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Services-box{
+    display: flex;
+    justify-content: space-around;
+}
+.service img{
+    width: 300px;
+    margin: 30px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #060480;
+    padding: 13px 10px;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+.service a{
+    scroll-behavior: smooth;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #060480;
+    background-color: #FAC809;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.service a:hover{
+    background-color: aqua;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: black;
+    transform: translateY(-7px);
+}
+.service a:active {
+    transform: translateY(-1px);
+}
+/*Mobile application*/
+.Mobile-application{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.Mobile-application p{
+    font-size: 30px;
+    width: 30%;
+    line-height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mobile-form{
+    position: relative;
+}
+.mobile-form img{
+    width: 77%;
+    height: auto;
+    display: block;
+    background:linear-gradient(to right, #060480, #01011A);
+    border-radius: 40px;
+}
+.mobile-form form{
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    display: flex;
+    flex-direction: column;
+}
+.mobile-form form label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    color: #FAC809;
+    padding: 5px;
+}
+.mobile-form form input{
+    background-color: transparent;
+    border: 2px solid;
+    border-color:#FAC809;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 100%;
+}
+.mobile-form form textarea{
+    max-width: 190px;
+    max-height: 100px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-color: #FAC809;
+    background-color: transparent;
+}
+.web-site{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+}
+.web-site p{
+    font-size: 30px;
+    width: 30%;
+    line-height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.web-form{
+    position: relative;
+}
+.web-form img{
+    width: 600px;
+    background:linear-gradient(to right, #060480, #01011A);
+    border-radius: 18px;
+}
+.webform{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    padding: 6px;
+}
+.leftside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+}
+.webform label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    color: #FAC809;
+    padding: 5px;
+}
+.web-form form input{
+    background-color: transparent;
+    border: 2px solid;
+    border-color:#FAC809;
+    border-radius: 3px;
+    margin: 2px 0px 20px 0px;
+    height: 20px;
+    width: 100%;
+}
+.web-form form textarea{
+    max-height: 145px;
+    max-width: 200px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-color: #FAC809;
+    background-color: transparent;
+}
+#bottone1 {
+    margin-top: 13px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #d5f365;
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+} 
+#bottone1:hover {
+    box-shadow: 7px 5px 56px -14px #C3D900;
+}
+#bottone1:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #C3D900;
+}
+.other-sytems{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+.other-sytems img{
+    width: 480px;
+    background:linear-gradient(to right, #060480, #01011A);
+    border-radius: 20px;
+}
+#systems-caption{
+    font-size: 30px;
+    width: 30%;
+    line-height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.systems-form{
+    position: relative;
+}
+.otherform{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;
+}
+.leftside1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.rightside1{
+    display: flex;
+    flex-direction: column;
+}
+.systems-form label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    color: #FAC809;
+    padding: 5px;
+}
+.systems-form input{
+    background-color: transparent;
+    border: 2px solid;
+    border-color:#FAC809;
+    border-radius: 3px;
+    margin: 2px 0px 20px 0px;
+    height: 20px;
+    width: 100%;
+}
+.systems-form textarea{
+    max-height: 145px;
+    max-width: 200px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-color: #FAC809;
+    background-color: transparent;
+}
+/*footer section*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 17px;
+    background:linear-gradient(to right, #060480, #01011A);
+    height: 15rem;
+    margin-top: 40px;
+}
+footer iframe{
+    border-radius: 10px;
+}
+.map-caption{
+    margin-bottom: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FAC809;
+}
+.nav-bar h3{
+    color: #FAC809;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar_links-f{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.navbar_links-f li{
+    margin-top: 13px;
+}
+.navbar_links-f li a{
+    transition: all 0.3s ease 0s;
+
+}
+.navbar_links-f li a:hover{
+    color: #060480;
+    background-color: #FAC809;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+.Contact{
+    justify-self: normal;
+}
+.Contact h3{
+    color: #FAC809;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 40px;
+}
+.Contact p{
+    color: #FAC809;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Contact form{
+    margin-top: 35px;
+    color: #FAC809;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Contact form input{
+    border: 0 0 1px 0;
+    border-color: #FAC809;
+    border-radius: 3px;
+    height: 20px;
+    width: 60%;
+    background-color: transparent;
+    margin-top: 6px;
+}

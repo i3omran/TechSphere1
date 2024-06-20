@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+li, a, button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 7%;
+    background: linear-gradient(to right, #060480, #01011A);
+}
+
+header p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar_links{
+    list-style: none;
+}
+.navbar_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar_links li a{
+    transition: all 0.3s ease 0s;
+
+}
+.navbar_links li a:hover{
+    color: #060480;
+    background-color: #FAC809;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+button{
+    color: #060480;
+    padding: 9px 25px;
+    background-color: #FAC809;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: aqua;
+}
+/*end of nav section*/
+/*hero section*/
+.hero-section{
+    background-image: url(/images/coontct.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 23rem;
+    width: 100%;
+    text-align: center;
+}
+.image-overlay{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(to right, #060480, #01011A);
+    opacity: 0.8;
+}
+.hero-section h1{
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    padding-top: 100px;
+}
+#Line{
+    width: 100%;
+    background-color: #FAC809;
+    display: block;
+}
+/*end of hero section*/
+/*Form section*/
+.form-container {
+    margin-left: 380px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+    width: 500px;
+    background:linear-gradient(to right, #060480, #01011A);
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+  
+  .form-container button:active {
+    scale: 0.95;
+  }
+  
+  .form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .form-container .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #414141;
+  }
+  
+  .form-container .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #fff;
+    height: 96px;
+    border: 1px solid #414141;
+    background-color: transparent;
+    font-family: inherit;
+  }
+  
+  .form-container .form-group input::placeholder {
+    opacity: 0.5;
+  }
+  
+  .form-container .form-group input:focus {
+    outline: none;
+    border-color: #e81cff;
+  }
+  
+  .form-container .form-group textarea:focus {
+    outline: none;
+    border-color: #e81cff;
+  }
+  
+  .form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: black;
+    font-weight: 600;
+    width: 40%;
+    background: #FAC809;
+    border: 1px solid #414141;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .form-container .form-submit-btn:hover {
+    background-color: #fff;
+    border-color: #fff;
+}
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 17px;
+    background:linear-gradient(to right, #060480, #01011A);
+    height: 15rem;
+    margin-top: 40px;
+}
+footer iframe{
+    border-radius: 10px;
+}
+.map-caption{
+    margin-bottom: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FAC809;
+}
+.nav-bar h3{
+    color: #FAC809;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar_links-f{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.navbar_links-f li{
+    margin-top: 13px;
+}
+.navbar_links-f li a{
+    transition: all 0.3s ease 0s;
+
+}
+.navbar_links-f li a:hover{
+    color: #060480;
+    background-color: #FAC809;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+.Contact{
+    justify-self: normal;
+}
+.Contact h3{
+    color: #FAC809;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 40px;
+}
+.Contact p{
+    color: #FAC809;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Contact form{
+    margin-top: 35px;
+    color: #FAC809;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Contact form input{
+    border: 0 0 1px 0;
+    border-color: #FAC809;
+    border-radius: 3px;
+    height: 20px;
+    width: 60%;
+    background-color: transparent;
+    margin-top: 6px;
+}
+  
+  
+  
+  

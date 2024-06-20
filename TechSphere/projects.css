@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav section code*/
+li, a, button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 7%;
+    background: linear-gradient(to right, #060480, #01011A);
+}
+
+header p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar_links{
+    list-style: none;
+}
+.navbar_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar_links li a{
+    transition: all 0.3s ease 0s;
+
+}
+.navbar_links li a:hover{
+    color: #060480;
+    background-color: #FAC809;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+button{
+    color: #060480;
+    padding: 9px 25px;
+    background-color: #FAC809;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: aqua;
+}
+/*end of nav section*/
+
+/*hero section*/
+
+/*hero section*/
+.hero-section{
+    background: linear-gradient(to right, #060480, #01011A);
+    height: 23rem;
+    width: 100%;
+    text-align: center;
+}
+.hero-section h1{
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    padding-top: 100px;
+}
+.hero-section p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    margin-top: 20px;
+    color: white;
+}
+#Line{
+    width: 100%;
+    background-color: #FAC809;
+    display: block;
+}
+/*end of hero section*/
+/*projects samples section*/
+.projects{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px 100px 0px;
+    text-align: center;
+}
+.projects img{
+    width: 350px;
+    border-radius: 20px;
+    transition: 0.7s;
+    border: 5px solid #FAC809;
+}
+.projects img:hover{
+    transform: scale(1.1,1.1);
+}
+.projects h2{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #060480;
+
+}
